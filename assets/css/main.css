@@ -40,7 +40,7 @@ body{
 {
 		.main{
 			height: 100vh;
-			overflow: hidden;
+			overflow-y: auto;
 		}
 
 		.img-rabbit{
@@ -202,7 +202,7 @@ footer{
 
 .submit{
 
-	font-family: "Crimson"
+	font-family: "Crimson";
 	font-size: 16px;
 }
 
@@ -305,7 +305,9 @@ footer{
 		height: auto;
 	}
 }
-.custom_btn{
+
+.custom_btn
+{
   -vendor-animation-duration: 3s;
   -vendor-animation-delay: 2s;
   -vendor-animation-iteration-count: infinite;
@@ -321,6 +323,7 @@ footer{
   padding: 0px;
   margin: 0px;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 /* Control buttons  */
